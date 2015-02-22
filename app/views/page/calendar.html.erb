@@ -1,0 +1,8 @@
+<h1>Calendar</h1>
+<!--
+<%= mail_to "la@gmail.com", "Email Me", encode: "hex" %><br/>
+# Day of the week <%= @day_of_week %><br/>
+Date: <%= @time.year %> <%= @time.strftime("%B") %> -->
+
+
+<%= calendar(@month, @year, @day).html_safe %>
